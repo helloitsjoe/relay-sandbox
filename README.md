@@ -1,1 +1,1 @@
-# relay-sandbox
+# Remix Playground

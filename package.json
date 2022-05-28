@@ -1,0 +1,19 @@
+{
+  "name": "remix-playground",
+  "version": "1.0.0",
+  "description": "Remix Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloitsjoe/remix-playground.git"
+  },
+  "author": "Joe Boyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloitsjoe/remix-playground/issues"
+  },
+  "homepage": "https://github.com/helloitsjoe/remix-playground#readme"
+}
