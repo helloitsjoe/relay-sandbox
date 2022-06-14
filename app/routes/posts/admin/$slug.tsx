@@ -68,13 +68,12 @@ export default function NewPost() {
   const {
     post: { title, slug, markdown },
   } = useLoaderData();
-  console.log("markdown", markdown);
 
   const transition = useTransition();
   const isCreating = !!transition.submission;
 
   return (
-    <Form method="post">
+    <Form method="post" key={slug}>
       <p>
         <label>
           Post Title:{" "}
@@ -116,7 +115,6 @@ export default function NewPost() {
           rows={10}
           name="markdown"
           className={`${inputClassName} font-mono`}
-          // Why isn't this updating?
           defaultValue={markdown}
         />
       </p>
